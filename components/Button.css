@@ -1,0 +1,16 @@
+.button {
+    border-radius: 8px;
+    background: #000000;
+    outline: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}

@@ -1,0 +1,59 @@
+div.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 20.125rem;
+
+    padding: 2.5rem 0;
+}
+
+.photo {
+    width: 6.25rem;
+    height: 6.25rem;
+
+    margin-bottom: 1.5rem;
+
+    border-radius: 0.5rem;
+}
+
+.name {
+    font-size: 1.25rem;
+    font-weight: 600;
+
+    line-height: 1.5rem;
+    letter-spacing: 0.034375rem;
+
+    color: #000000;
+
+    margin-bottom: 0.25rem;
+}
+
+.availability {
+    font-size: 0.9375rem;
+
+    line-height: 1.125rem;
+    text-align: center;
+    letter-spacing: -0.015rem;
+    text-transform: capitalize;
+
+    color: rgba(60, 60, 67, 0.6);
+}
+
+.divider {
+    width: 2.5rem;
+
+    margin: 1.5rem 0;
+
+    border-bottom: 0.0625rem solid #D1D1D6;
+}
+
+.link {
+    font-size: 1.0625rem;
+
+    line-height: 1.25rem;
+    text-align: center;
+    text-decoration: none;
+
+    color: #006BB2;
+}

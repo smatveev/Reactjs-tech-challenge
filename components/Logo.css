@@ -1,0 +1,16 @@
+.logo {
+    position: absolute;
+    width: 171px;
+    height: 80px;
+    left: 82px;
+    top: 0px;
+    background: #161616;
+    color: white !important;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 0 0 10px 10px;
+    z-index: 1;
+    text-decoration: none;
+}

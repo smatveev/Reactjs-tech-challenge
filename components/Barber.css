@@ -1,0 +1,52 @@
+.barber {
+    padding: 40px 0;
+    width: 229px;
+    height: 322px;
+    border: 1px solid #C7C7CC;
+    box-sizing: border-box;
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+}
+
+.name {
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    text-align: left;
+    letter-spacing: 0.55px;
+    color: #000000;
+    flex-grow: 1;
+}
+
+.available {
+    font-size: 15px;
+    color: rgba(60, 60, 67, 0.6);
+}
+
+.hr {
+    width: 40px;
+    margin: 24px 0;
+    border: 1px solid #D1D1D6;
+}
+
+.link {
+    font-style: normal;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #007FFF !important;
+    text-decoration: none;
+}

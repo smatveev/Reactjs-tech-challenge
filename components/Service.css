@@ -1,0 +1,45 @@
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 134px;
+}
+
+.name {
+    line-height: 22px;
+    letter-spacing: -0.02562499978rem;
+    text-align: left;
+    font-weight: 600;
+    font-size: 17px;
+    color: #000000;
+    max-width: 11rem;
+}
+
+.bottom {
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.price {
+    letter-spacing: 0;
+    text-align: right;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.duration {
+    text-align: left;
+    color: rgba(60, 60, 67, 0.6);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height, or 147% */
+    letter-spacing: -0.24px;
+}
